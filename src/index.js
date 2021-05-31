@@ -29,4 +29,9 @@ const element = (
         <p>Fullstack in progress</p>
     </div>
 );
-ReactDOM.render(<Badge/>, container);
+ReactDOM.render(<Badge 
+    firstName = 'Cristopher' 
+    lastName = 'Soto' jobTitle ='Backend developer' 
+    twitter= 'cesc_iam' 
+    avatarUrl= 'https://www.gravatar.com/avatar?d=identicon'
+    />, container);
